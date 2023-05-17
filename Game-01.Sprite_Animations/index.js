@@ -85,12 +85,11 @@ function animate(){
 
     //x++;//making the animation moving
 
-    let position=Math.floor(gameframe/staggerFrame)%spriteAnimation["idle"].loc.legth;
+    let position=Math.floor(gameFrame/staggerFrame)%spriteAnimation["idle"].loc.legth;
     let frameX=spriteWidth*position;
     let frameY=spriteAnimation["idle"].loc[position].y;
-
     //drawing an image, to crop and place at a specific location
-    ctx.drawImage(playerImage,frameX/*changing images in a row*/,frameY*spriteHeight/*changing images in a coloumn*/,spriteWidth,spriteHeight,0,0,spriteWidth,spriteHeight);
+    ctx.drawImage(playerImage,frameX/*changing images in a row*/,frameY/*changing images in a coloumn*/,spriteWidth,spriteHeight,0,0,spriteWidth,spriteHeight);
     //basic sytax of it: ctx.drawImage(image,source_X,source_y,source_width,source_height,dest_X,dest_y,dest_width,dest_height)
     if( gameFrame % staggerFrame == 0 )/*slowing down the animation*/{
         if(frameX<6) frameX++;
