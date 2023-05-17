@@ -1,0 +1,20 @@
+.color-name {
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#red {
+    color:red;
+}
+#green {
+    color:green;
+}
+#orange {
+    color:orange;
+}
+*{
+    background-color:rgb(242, 222, 210);
+}
+img{
+    height:250px;
+    width :250px;
+}
