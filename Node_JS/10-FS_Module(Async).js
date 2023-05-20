@@ -1,6 +1,6 @@
-const { readFile, writeFile } =require('fs');
+const { readfile, writefile } =require('fs');
 
-readFile('./content/first.txt',(err,result)=>{
+readfile('./content/first.txt',(err,result)=>{
     if(err){
         console.log(err);
         return;
@@ -12,7 +12,7 @@ readFile('./content/first.txt',(err,result)=>{
             return;
         }
         const second = result;
-        writeFile('./content/result-async.txt',"Here is the result:"+first+second,(err,result)=>{
+        writeFile('./content/result-async.txt',"Here is the result"+first+second,(err,result)=>{
             if(err){
                 console.log(err);
                 return;
