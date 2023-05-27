@@ -1,65 +1,63 @@
-*
-{
+
+*,*::after,*::before{
     margin:0;
     padding:0;
+    box-sizing: border-box;
+    font-size: 62.5%;
 }
-body
-{
-    font: 14px Georgia,serif;
+body{
+    font: 1rem Georgia,serif;
     background-color: blanchedalmond;
+    text-align: center;
 }
-article, 
-aside,
-figure,
-footer,
-header,
-menu,
-nav,
-section{
-    display: block;
+
+li{
+    list-style-type: none;
 }
-h2
-{
-    font:24px georgia,sans-serif;
+h2{
+    font:3rem georgia,sans-serif;
+    margin:0.5rem 0;
 }
 #fluid-wrap{
     width:70%;
-    margin: 60px auto;
-    padding:20px;
+    max-width: 50rem;;
+    margin: 6rem auto;
+    padding:2rem;
     background-color:burlywood;
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3rem;
+    gap:1rem;
 }
 #sidebar{
     width:35%;
-    float:left;
+    max-width: 10rem;
 }
 #sidebar ul li a {
     color:rgb(226, 43, 83);
     text-decoration:none;
-    padding: 3px 0;
+    padding: 0.5rem 0;
+    margin: 0.8rem 0;;
     display: block;
+    font-size: 1.2rem;
+    position: relative;
 }
-@media all and(min-width:1000px){
-    #sidebar ul li a:after{
-        content:"("attr(data-email)")";
-        font-size: 12px;
-        font-style: italic;
-        color:green;
-    }
+#nav{
+    overflow-wrap: break-word;
 }
-#sidebar ul
-{
- list-style-type: disc;
-}
-@media all and (max-width:1000px) and (min-width:1200px)
-{
-    #sidebar ul li a:before{
-        content:"Email:";
-        font-style: italic;
-        color:brown;
-    }
+
+#sidebar ul li a:after{
+    content:"("attr(data-email)")";
+    font-size: 1rem;
+    font-style: italic;
+    color:green;
+    position: absolute;
+    top:100%;
+    left:0;
 }
 #main-content{
-    width:65%;
-    float:right;
+     width:65%;
+
 }
