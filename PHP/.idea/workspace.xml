@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eb74ea1-d32b-450c-a29a-72bbcffdbba0" name="Changes" comment="Some mild changes">
-      <change afterPath="$PROJECT_DIR$/2nd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3rd.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15th.php" beforeDir="false" afterPath="$PROJECT_DIR$/15th.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,9 @@
       <workItem from="1685299674319" duration="3000" />
       <workItem from="1685299693303" duration="2000" />
       <workItem from="1685337536323" duration="3480000" />
+      <workItem from="1685371834858" duration="7173000" />
+      <workItem from="1685413450077" duration="12494000" />
+      <workItem from="1685459524794" duration="6452000" />
     </task>
     <task id="LOCAL-00001" summary="Some mild changes">
       <created>1685299595054</created>
@@ -75,11 +77,43 @@
       <option name="project" value="LOCAL" />
       <updated>1685299630783</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Some mild changes">
+      <created>1685372187170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685372187170</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Some mild changes">
+      <created>1685436260405</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685436260405</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Some mild changes">
+      <created>1685472245512</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685472245512</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Some mild changes" />
