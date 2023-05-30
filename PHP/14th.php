@@ -10,6 +10,7 @@
             }
 
             echo cube(4);
+            echo cube(5);
         ?>
     </body>
 </html>
