@@ -1,0 +1,99 @@
+*{
+    scroll-behavior: smooth;
+}
+#head{
+    text-align: right;
+    font-size: 20px;
+    padding: 5px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: flex;
+    background-color: #b1040e;
+    margin: 0 0 0 0;
+    margin-top: -30px;
+    margin-left: -8px;
+    margin-right: -8px;
+    font-family:  Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+#img1{
+    width: 1263px;
+    height: 433px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -20px;
+}
+#bottom{
+    text-align: center;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+    margin-top: 30px;
+}
+h3{
+    font-size: 40px;
+}
+#nav1{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+    display: flex;
+    background-color: #b1040e;
+    margin: 0 0 0 0;
+    margin-top: 50px;
+    margin-right: -8px;
+    font-family:  Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+a{
+    color: white;
+}
+a:link{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+#nav2{
+    text-align: center;
+    font-size: 40px;
+    padding: 5px;
+    padding-left: 480px;
+    color: whitesmoke;
+    font-weight: bold;
+    display: flex;
+    background-color: #b1040e;
+    margin: 0 0 0 0;
+    margin-top: 10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    font-family:  Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+#btn1{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #b1040e;
+    color: white;
+    border: 2px solid #b1040e;
+}
+h1{
+    margin-right: 400px;
+}
+ul{
+    list-style-type:i;
+}

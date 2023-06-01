@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eb74ea1-d32b-450c-a29a-72bbcffdbba0" name="Changes" comment="Some mild changes">
-      <change afterPath="$PROJECT_DIR$/19th.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20th.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Article_Header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Web__Development&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/College Assignment/Sem 4/Networking/Question-1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -67,6 +65,13 @@
       <workItem from="1685459524794" duration="6638000" />
       <workItem from="1685472685471" duration="53000" />
       <workItem from="1685543864183" duration="5610000" />
+      <workItem from="1685553348930" duration="35000" />
+      <workItem from="1685554143576" duration="3232000" />
+      <workItem from="1685589560089" duration="1592000" />
+      <workItem from="1685597195063" duration="48000" />
+      <workItem from="1685598273418" duration="631000" />
+      <workItem from="1685606239203" duration="780000" />
+      <workItem from="1685609397150" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="Some mild changes">
       <created>1685299595054</created>
@@ -117,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685472632953</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Some mild changes">
+      <created>1685553363765</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685553363765</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
